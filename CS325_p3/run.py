@@ -7,6 +7,8 @@
 #Then goComments() is executed not returning anything to main
 #The main() function is called and exectues these functions within it 
 #main() is a void function
+#To run my code input in the terminal:
+#python run.py "https://old.reddit.com/r/NintendoSwitch/comments/16ik507/mario_kart_8_deluxe_booster_course_pass_wave_6/"
 
 from module_1 import getURL
 from module_2 import openFileRead
