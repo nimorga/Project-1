@@ -1,3 +1,50 @@
 positive
 positive
-neutral
+positive
+Negative
+Negative
+Negative
+I don't know.
+I don't know.
+Negative
+Positive
+I don't know.
+positive
+positive
+I don't know.
+I don't know.
+I don't know.
+I don't know.
+I don't know.
+I don't know.
+positive
+Negative
+I don't know.
+positive
+Positive
+Positive
+I don't know.
+I don't know.
+negative
+Positive
+negative
+negative
+Positive
+Positive
+positive
+Neutral
+Negative
+I don't know.
+Positive
+I don't know.
+Positive
+Positive
+Negative.
+negative
+negative
+I don't know.
+positive
+I don't know.
+Negative
+I don't know.
+I don't know.

@@ -6,14 +6,14 @@ import time
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="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",
+    api_key="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",
 )
 
 ResultsFile = 'CS325_p4/Data/Sentiments/resultsFile.txt'
 Comments_File = 'CS325_p4/Data/processed/comments.txt'
 
 def runAI():
-    maxComments = 3
+    maxComments = 50
     commentsGoThru = 0
     
     with open(Comments_File, 'r', encoding='utf-8') as context, open(ResultsFile, 'w') as resultsFile:
