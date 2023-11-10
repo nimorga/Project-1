@@ -6,8 +6,8 @@
 #The getFile() funtion returns the the comments.txt path to the run.py file
 
 from bs4 import BeautifulSoup #imported from miniconda
-getCommentTxt ='Data/processed/comments.txt'
-getTxt = 'Data/raw/URL.txt'
+getCommentTxt ='CS325_p4/Data/processed/comments.txt'
+getTxt = 'CS325_p4/Data/raw/URL.txt'
 def openRead():
     with open(getTxt, "r", encoding="utf-8") as fileRead:
         html = fileRead.read()

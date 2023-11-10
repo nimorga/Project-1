@@ -8,7 +8,7 @@
 
 import requests #imported from miniconda
 import sys #included in STD library
-getTxt = 'Data/raw/URL.txt'
+getTxt = 'CS325_p4/Data/raw/URL.txt'
 
 def retrieveURL(url):
     outputFile = open(getTxt,"w",encoding="utf-8")

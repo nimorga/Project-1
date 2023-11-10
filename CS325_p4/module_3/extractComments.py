@@ -22,6 +22,7 @@ def goComment(txtFile):
     #find the <div> tags with data-type="comment"
         for divData in parse.select('div[data-type="comment"]'):
             divClass = divData.select_one('div[class="md"]') #selects one <div class="md"> 
+            file.write('\n')
             if divClass: #if there
                 pTags = divClass.find_all('p') #finds all pTags in that divTag
                 for pTagDiv in pTags: #goes through all the <p> tags
