@@ -28,14 +28,14 @@ python CS325_p4\\run.py
 This should run the program and extract comments from the exisiting comments file and input them into openAI to be read and given a sentiment of negative, positive, or I don't know. 
 It will return positive or negative based on the ChatGPT's analysis result and store into output file.
 
-## Using the API to analysis the sentiment by ChatGPT for each comment into a output file.
+## Using the API to analyze the sentiment for each comment by ChatGPT stored into an output file.
 Go to https://openai.com/ and login, you can login by google account, Microsoft account or Apple account, if you do not have any of these, just follow the sign up step by step.
 
 After you login, click API it will lead you to the API main page
 
 Click API keys in the left bar and click Create new secret key(if you already had one you can also use that), make sure you save your key somewhere because you cannot check the key again.
 
-After that, open the openAI.py in the module_4 folder and paste "your key" into: client = OpenAI( api_key="your_key" ). This will allow us the user to connect to the OpenAI and call a simple API function call. 
+After that, open the openAI.py in the module_4 folder, or your with your own file paste "your key" into: client = OpenAI( api_key="your_key" ). This will allow us the user to connect to the OpenAI and call a simple API function call. 
 ```
 chat_completion = client.chat.completions.create(
                         model="gpt-3.5-turbo",
