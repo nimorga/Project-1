@@ -35,7 +35,7 @@ After you login, click API it will lead you to the API main page
 
 Click API keys in the left bar and click Create new secret key(if you already had one you can also use that), make sure you save your key somewhere because you cannot check the key again.
 
-After that, open run.py and paste "your key" into: client = api_key(api_key= "your_key"). This will allow us the user to connect to the OpenAI and call a simple API function call. 
+After that, open the openAI.py in the module_4 folder and paste "your key" into: client = OpenAI( api_key="your_key" ). This will allow us the user to connect to the OpenAI and call a simple API function call. 
 ```
 chat_completion = client.chat.completions.create(
                         model="gpt-3.5-turbo",
