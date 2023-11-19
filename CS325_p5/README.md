@@ -55,5 +55,6 @@ In the terminal, input the code:
 python run.py readURL.txt
 ```
 This should go through each URL located in readURL.txt. It extracts the comments from the URL and determines the sentiments of each comment. The limit of comments is 50.
-Side Note: For this Project-5 we went all the way into folder CS325_p5 compared to Project-4 we stayed in Project Reddit folder. So you do not need 'CS325_p4\\' to run this code.
+
+Side Note: For this Project-5 we went all the way into folder CS325_p5 compared to Project-4 we stayed in ProjectReddit folder. So you do not need 'CS325_p4\\' to run this code.
 
