@@ -58,3 +58,10 @@ This should go through each URL located in readURL.txt. It extracts the comments
 
 Side Note: For this Project-5 we went all the way into folder CS325_p5 compared to Project-4 we stayed in ProjectReddit folder. So you do not need 'CS325_p4\\' to run this code.
 
+# Project-6
+## Creating Bar Graphs of the Sentiments
+In the terminal, input the code:
+```
+python run.py readURL.txt
+```
+This should go through all the URL sentiment files and create a bar graph of each one.  

@@ -22,3 +22,12 @@ def retrieveURL(url):
         except requests.RequestException as e:
             print("Error retrieving from Reddit")
     outputFile.close()
+    
+def titleURL(url):
+    urlDivided = url.split("/")
+    findComments = urlDivided.index("comments")
+    title = urlDivided[findComments+2]
+    if title:
+        title = ' '.join([word.capitalize()for word in title.split('_')])
+        return title
+    return title
